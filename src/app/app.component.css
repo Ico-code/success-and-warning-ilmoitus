@@ -1,0 +1,15 @@
+.container{
+    flex-direction: row;
+}
+
+@media only screen and (max-width:750px){
+    .container{
+        flex-direction: column;
+    }
+    app-warning-alert, app-success-alert{
+        margin-bottom: 1.5rem;
+    }
+}
+app-warning-alert, app-success-alert{
+    max-width: 458px;
+}
